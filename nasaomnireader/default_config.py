@@ -1,13 +1,11 @@
 # (C) 2020 University of Colorado AES-CCAR-SEDA (Space Environment Data Analysis) Group
 # Written by Liam M. Kilcommons
-import pkg_resources,os
+import os
 
 #Determine where this module's source file is located
 src_file_dir = os.path.dirname(os.path.realpath(__file__))
 
-appdirs = pkg_resources.appdirs.AppDirs('nasaomnireader','cuseda')
-
-data_dir = appdirs.user_data_dir #~/.local/share/AMGeO on Ubuntu
+data_dir = os.path.join(src_file_dir,'cuseda')
 
 print('Solar wind data files will be saved to {}'.format(data_dir))
 if not os.path.exists(data_dir):
