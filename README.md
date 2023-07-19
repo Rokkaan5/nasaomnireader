@@ -1,6 +1,8 @@
-Forked copy of Liam kilcommons' nasaomnireader module
+Forked copy of Liam Kilcommons' nasaomnireader package
 
 Orginal repo here:[https://github.com/lkilcommons/nasaomnireader]
+
+---
 ### Data Sources ###
 
 The package automatically downloads data from the NASA OMNIWeb website. It can use data in two formats:
