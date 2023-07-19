@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# JK additions (ignore data directory)
+nasaomnireader/cuseda/
