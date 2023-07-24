@@ -1381,7 +1381,7 @@ metadata={
                "SCALEMIN": 1.00000,
             },
          },
-         "IMF_ID":
+         "IMF":
          {
             "column": 4,
             "attrs":
@@ -1699,7 +1699,7 @@ metadata={
                "SCALEMIN": -100.00000,
             },
          },
-         "Mag_Field":
+         "F":
          {
             "column": 13,
             "attrs":
@@ -1777,7 +1777,7 @@ metadata={
                "SCALEMIN": 0.00000,
             },
          },
-         "E_Field":
+         "E":
          {
             "column": 28,
             "attrs":
