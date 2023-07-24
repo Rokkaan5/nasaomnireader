@@ -5,7 +5,7 @@ import os
 #Determine where this module's source file is located
 src_file_dir = os.path.dirname(os.path.realpath(__file__))
 
-data_dir = os.path.join(src_file_dir,'cuseda')
+data_dir = os.path.join(os.environ['LOCALAPPDATA'],'cuseda','nasaomnireader')
 
 print('Solar wind data files will be saved to {}'.format(data_dir))
 if not os.path.exists(data_dir):
